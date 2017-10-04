@@ -1,0 +1,32 @@
+<html><head><title>光华异乡月正明抽奖活动</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="https://res.wx.qq.com/open/libs/weui/1.0.2/weui.min.css" media="screen">
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/jquery-cookie/1.4.1/jquery.cookie.js"></script>
+<script src="https://cdn1.lncld.net/static/js/2.2.1/av-min.js"></script>
+<script src="leancloud.js"></script>
+<script src="time.js"></script>
+<script src="choujiang.js"></script>
+<script src="https://res.wx.qq.com/open/js/jweixin-1.2.0.js"></script>
+<script src="wx.js"></script>
+</head><body>
+<div class="weui-cells weui-cells_form"><form id="form" method="post">
+<div class="weui-cell" id="wxinput">
+<div class="weui-cell__bd"><input id="number" class="weui-input" type="number" pattern="[0-9]*" placeholder="请输入号码"/></div>
+</div>
+<div class="weui-cell" id="wxsubmit">
+<div class="weui-cell__bd"><input type="submit" value="提交" class="weui-btn weui-btn_primary"></div>
+</div></div></form></div>
+<div style="display: none;" id="tishi">
+    <div class="weui-mask"></div>
+    <div class="weui-dialog">
+        <div class="weui-dialog__hd"><strong class="weui-dialog__title">提示</strong></div>
+        <div class="weui-dialog__bd" id="neirong">输入有误！</div>
+        <div class="weui-dialog__ft">
+            <a href="javascript:$('#tishi').hide();" class="weui-dialog__btn weui-dialog__btn_primary">确定</a>
+        </div>
+    </div>
+</div>
+</body>
+</html>
