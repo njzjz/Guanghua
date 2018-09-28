@@ -5,7 +5,7 @@ A lottery system based on LeanCloud, which is used in 2017 Guang Hua College Mid
 
 **Author**: Jinzhe Zeng
 
-**Email**: njzjz@qq.com 10154601140@stu.ecnu.edu.cn
+**Email**: jzzeng@stu.ecnu.edu.cn
 
 ## Usage
 Use [index.html](https://njzjz.win/Guanghua/) to input numbers, and use [choujiang.html](https://njzjz.win/Guanghua/choujiang.html) for lottery.
